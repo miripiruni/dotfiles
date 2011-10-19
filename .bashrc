@@ -12,6 +12,7 @@ alias la='ls -laohF'
 alias cl='clear'
 
 # shell
+alias :q='exit'
 alias ..='cd ..;' # can then do .. .. .. to move up multiple directories.
 alias ...='.. ..'
 
@@ -33,3 +34,17 @@ alias ?E='f () { A=($@); A[1]=${A[1]:-./}; ?? ${A[@]} |E - ; }; f ' # grep resul
 
 # Reload .bashrc
 alias refresh='. ~/.bashrc'
+
+up(){
+  local d=""
+  limit=$1
+  for ((i=1 ; i <= limit ; i++))
+    do
+      d=$d/..
+    done
+  d=$(echo $d | sed 's/^\///')
+  if [ -z "$d" ]; then
+    d=..
+  fi
+  cd $d
+}
