@@ -6,6 +6,7 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export GREP_OPTIONS='--color=auto --exclude="tags" --exclude="TAGS" --exclude="TAGS" --exclude-dir=.git --exclude-dir=.svn --exclude-dir=log'
 export GREP_COLOR='1;33'
+export LC_ALL='ru_RU.UTF-8'
 
 alias sd='svn diff | more'
 alias la='ls -laohF'
