@@ -49,3 +49,7 @@ up(){
   fi
   cd $d
 }
+
+if [ $SHLVL == 1 ]; then
+    screen -RR -D
+fi
