@@ -1,38 +1,22 @@
-# продвинутое автодополнение
-autoload -U compinit
-compinit
+ZSH=$HOME/lib/oh-my-zsh
 
-# подсветка выбора вариантов автодополнения
-zmodload zsh/complist
-zstyle ':completion:*' menu yes select
+ZSH_THEME="blinks"
 
-zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+lugins=(git)
 
-# man zshmisc
+source $ZSH/oh-my-zsh.sh
 
-# автокоррекция команд и путей если набрали с ошибкой
-setopt CORRECT_ALL
-SPROMPT="Ошибка! Вы хотели ввести %r вместо %R? (y/n/e/a) "
+# alias
+alias sd='svn diff | more'
+alias la='ls -lAohF'
+alias cl='clear'
 
-# Теперь, если нажать Ctr+X Ctrl+Z, при вводе команды будет автоматически производится поиск в истории по первым буквам команды. Нажатие Ctrl+Z отключит этот режим
-autoload -U predict-on
-zle -N predict-on
-zle -N predict-off
-bindkey "^X^Z" predict-on # C-x C-z
-bindkey "^Z" predict-off # C-z
+alias :q='exit'
+alias ..='cd ..;' # can then do .. .. .. to move up multiple directories.
+alias ...='.. ..'
 
-# Автодополнение имени хостов SSH
-# пробелы между "% %" убрать.
-hosts=(${${${(f)"$(<$HOME/.ssh/known_hosts)"}% %\ *}% %,*})
-zstyle ':completion:*:hosts' hosts $hosts
+# editor
+alias e='vim'
 
-# dir in title of window
-chpwd() {
-  [[ -o interactive ]] || return
-  case $TERM in
-    sun-cmd) print -Pn "\e]l%~\e\\"
-      ;;
-    *xterm*|rxvt|(dt|k|E)term) print -Pn "\e]2;%~\a"
-      ;;
-  esac
-}
+export EDITOR='vim'
+export GREP_OPTIONS='--color=auto'
