@@ -1,0 +1,22 @@
+
+# shell
+alias :q='exit'
+alias cl='clear'
+alias ..='cd ..;' # can then do .. .. .. to move up multiple directories.
+alias ...='.. ..'
+alias cp='cp -i'
+alias rm='rm -i'
+alias mv='mv -i'
+alias la='ls -laohF'
+alias mkdir='mkdir -p'
+alias md='mkdir'
+
+# editor
+alias e='vim'
+alias E='f(){ $EDITOR ${*:-.};}; f'
+
+# Reload .bashrc
+alias refresh='. ~/.bashrc'
+
+# SVN
+alias sd='svn diff | more'

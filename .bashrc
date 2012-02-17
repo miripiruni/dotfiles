@@ -8,33 +8,6 @@ export GREP_OPTIONS='--color=auto --exclude="tags" --exclude="TAGS" --exclude="T
 export GREP_COLOR='1;33'
 export LC_ALL='ru_RU.UTF-8'
 
-alias sd='svn diff | more'
-alias la='ls -laohF'
-alias cl='clear'
-
-# shell
-alias :q='exit'
-alias ..='cd ..;' # can then do .. .. .. to move up multiple directories.
-alias ...='.. ..'
-
-alias cp='cp -i'
-alias rm='rm -i'
-alias mv='mv -i'
-
-alias mkdir='mkdir -p'
-alias md='mkdir'
-
-# editor
-alias e='vim'
-alias E='f(){ $EDITOR ${*:-.};}; f'
-
-# grep
-alias ?='\grep -i'
-alias ??='? -nR'
-alias ?E='f () { A=($@); A[1]=${A[1]:-./}; ?? ${A[@]} |E - ; }; f ' # grep results into editor
-
-# Reload .bashrc
-alias refresh='. ~/.bashrc'
 
 up(){
   local d=""
@@ -50,6 +23,4 @@ up(){
   cd $d
 }
 
-if [ $SHLVL == 1 ]; then
-    screen -RR -D
-fi
+source $HOME/dotfiles/aliases
