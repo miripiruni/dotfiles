@@ -21,4 +21,4 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 export GREP_OPTIONS='--color=auto'
 
-source $HOME/dotfiles/aliases
+source $HOME/.dotfiles/aliases

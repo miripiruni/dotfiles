@@ -23,4 +23,4 @@ up(){
   cd $d
 }
 
-source $HOME/dotfiles/aliases
+source $HOME/.dotfiles/aliases
