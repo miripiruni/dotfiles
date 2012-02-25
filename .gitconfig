@@ -10,6 +10,7 @@
     trustExitCode = true
 
 [color]
+    ui = auto
     branch = auto
     diff = auto
     status = auto
@@ -31,14 +32,39 @@
     untracked = cyan
 
 [alias]
-    st = status
-    ci = commit
-    br = branch
-    co = checkout
-    d = diff
-    df = diff
-    lg = log -p
     up = !sh -c 'git pull --rebase --prune && git log --pretty=format:\"%Cred%ae %Creset- %C(yellow)%s %Creset(%ar)\" HEAD@{1}..'
-    lol = log --graph --decorate --pretty=oneline --abbrev-commit
-    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
     ls = ls-files
+    svnup = svn rebase
+    spull = svn rebase
+    spush = svn dcommit
+    sfetch = svn fetch
+    b = branch
+    br = branch
+    t = tag
+    d = diff --stat -p -C
+    ds = diff --staged --stat -p -C
+    ci = commit -v
+    co = checkout
+    st = status -sb
+    pr = pull --rebase
+    pullr = pull --rebase
+    wc = whatchanged --abbrev-commit --date=relative --date-order --pretty='format:%Cgreen%h %Cblue%ar %Credby %an%Creset -- %s' -n 45
+    cdiff = diff --color
+    diffs = diff --staged --stat -p
+    diffc = diff --staged --stat -p
+    l   = log -p
+    lg   = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    lol  = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    ll   = log --graph --date=relative --topo-order --pretty='format:%C(yellow)%h%C(yellow)%d %Cblue%ar %Cgreenby %an%Creset -- %s'
+    lla  = log --graph --date=relative --topo-order --pretty='format:%Cgreen%h %Cblue%ar %Credby %an%Creset -- %s' --all
+    gl   = log --decorate --graph --abbrev-commit --color --color-words --topo-order --pretty=medium
+    gla  = log --decorate --graph --abbrev-commit --color --color-words --topo-order --pretty=medium --all
+    sl   = log --decorate --graph --abbrev-commit --color --topo-order --pretty=oneline
+    sla  = log --decorate --graph --abbrev-commit --color --topo-order --pretty=oneline --all
+    plog = !GIT_PAGER='less -n +/^commit\\ \\[0-9a-f\\]+' git log --color --patch-with-stat
+    scat = show $1:`git ls-files --full-name $2`
+    vimdiff = difftool -t vimdiff
+    kdiff3 = difftool -t kdiff3
+    meld = difftool -t meld
+    guilt = "!f(){ git log --pretty='format:%an <%ae>' $@ | sort | uniq -c | sort -rn; }; f"
