@@ -1,0 +1,16 @@
+export EDITOR="vim"
+export PAGER=less
+# Don’t clear the screen after quitting a manual page
+export MANPAGER="less -X"
+export LESS="-X -M -E -R"
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export GREP_OPTIONS='--color=auto --exclude="tags" --exclude="TAGS" --exclude="TAGS"'
+export GREP_COLOR='1;33'
+export LC_ALL='ru_RU.UTF-8'
+# Larger bash history (allow 32³ entries; default is 500)
+export HISTSIZE=32768
+export HISTFILESIZE=$HISTSIZE
+export HISTCONTROL=ignoredups
+# Make some commands not show up in history
+export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
