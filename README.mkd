@@ -9,3 +9,7 @@ http://github.com/miripiruni/vimi
 # Shortcuts cheatsheet
 
 http://en.wikipedia.org/wiki/Bash_(Unix_shell)#Keyboard_shortcuts
+
+# Browser
+
+[http://www.mozilla.org/](Firefox) + [pentadactyl](https://addons.mozilla.org/ru/firefox/addon/pentadactyl/) + [tree style tab](https://addons.mozilla.org/ru/firefox/addon/tree-style-tab/?src=search)
