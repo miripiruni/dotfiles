@@ -1,0 +1,11 @@
+# Zsh
+
+https://github.com/robbyrussell/oh-my-zsh
+
+# Vim setup
+
+http://github.com/miripiruni/vimi
+
+# Shortcuts cheatsheet
+
+http://en.wikipedia.org/wiki/Bash_(Unix_shell)#Keyboard_shortcuts
