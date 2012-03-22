@@ -5,7 +5,7 @@ alias ...='.. ..'
 alias cp='cp -i'
 alias rm='rm -i'
 alias mv='mv -i'
-alias la='ls -laohF --color'
+alias la='ls -laohFG'
 alias mkdir='mkdir -p'
 alias md='mkdir'
 
