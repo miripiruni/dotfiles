@@ -1,0 +1,15 @@
+# Zsh
+
+https://github.com/robbyrussell/oh-my-zsh
+
+# Vim setup
+
+http://github.com/miripiruni/vimi
+
+# Shortcuts cheatsheet
+
+http://en.wikipedia.org/wiki/Bash_(Unix_shell)#Keyboard_shortcuts
+
+# Browser
+
+[Firefox](http://www.mozilla.org/) + [pentadactyl](https://addons.mozilla.org/ru/firefox/addon/pentadactyl/) + [tree style tab](https://addons.mozilla.org/ru/firefox/addon/tree-style-tab/?src=search)
