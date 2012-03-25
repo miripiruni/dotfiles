@@ -3,11 +3,18 @@ alias :q='exit'
 alias ..='cd ..;' # can then do .. .. .. to move up multiple directories.
 alias ...='.. ..'
 alias cp='cp -i'
-alias rm='rm -i'
+alias rm='rm -I'
 alias mv='mv -i'
+alias ln='ln -i'
 alias la='ls -laohFG'
+# Позволяет создавать директории по цепочке /1/2/3/
 alias mkdir='mkdir -p'
 alias md='mkdir'
+# печатать размеры файлов в удобном для человека виде
+alias df='df -h'
+
+# По умолчанию пинговать 5 раз
+alias ping='ping -c 5'
 
 # Editor
 alias e='vim'
