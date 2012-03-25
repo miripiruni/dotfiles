@@ -21,8 +21,9 @@ alias refresh='. ~/.bashrc'
 # SVN
 alias sd='svn diff | more'
 
-#Git
-#alias gll ='log --graph --date=relative --topo-order --pretty=\'format:%C(yellow)%h%C(yellow)%d %Cblue%ar %Cgreenby %an%Creset -- %s\''
+# Debian
+alias dch='dch --distributor=debian'
+alias debuild='debuild --no-tgz-check --no-lintian'
 
 alias localip="ipconfig getifaddr en1"
 alias whois="whois -h whois-servers.net"
