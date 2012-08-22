@@ -5,3 +5,4 @@ build:
 	ln -s ~/.dotfiles/.bashrc ~/.bashrc
 	ln -s ~/.dotfiles/.bashrc ~/.bash_profile
 	ln -s ~/.dotfiles/.pentadactylrc ~/.pentadactylrc
+	ln -s ~/.dotfiles/.jshintrc ~/.jshintrc

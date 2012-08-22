@@ -14,4 +14,5 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
-export PATH=$PATH:~/bin
+export NODE_PATH="/usr/local/lib/node_modules:"
+export PATH=/usr/local/git/bin:~/bin:$PATH
