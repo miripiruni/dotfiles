@@ -30,6 +30,7 @@ alias sd='svn diff | more'
 alias gd='git diff'
 alias gs='git status'
 alias gap='git add -p'
+alias gc='git commit -m'
 # short log
 alias gsl="git log --format='%Cgreen%h%Creset %C(cyan)%an%Creset - %s' --graph"
 # log
