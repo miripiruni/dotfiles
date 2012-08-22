@@ -29,6 +29,12 @@ alias sd='svn diff | more'
 # Git
 alias gd='git diff'
 alias gs='git status'
+alias gap='git add -p'
+# short log
+alias gsl="git log --format='%Cgreen%h%Creset %C(cyan)%an%Creset - %s' --graph"
+# log
+alias gl="git plog"
+
 
 # Debian
 alias dch='dch --distributor=debian'
