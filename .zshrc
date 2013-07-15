@@ -15,7 +15,7 @@ ZSH=$HOME/lib/oh-my-zsh
 
 ZSH_THEME="blinks"
 
-lugins=(git)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 

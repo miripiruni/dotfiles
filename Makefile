@@ -1,5 +1,5 @@
 build:
-	rm ~/.zshrc ~/.gitconfig ~/.bashrc ~/.bash_profile ~/.pentadactylrc
+	rm -f ~/.zshrc ~/.gitconfig ~/.bashrc ~/.bash_profile ~/.pentadactylrc
 	ln -s ~/.dotfiles/.zshrc ~/.zshrc
 	ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 	ln -s ~/.dotfiles/.bashrc ~/.bashrc
