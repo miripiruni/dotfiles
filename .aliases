@@ -28,7 +28,7 @@ alias sd='svn diff | more'
 
 # Git
 alias gd='git diff'
-alias gs='git status'
+alias gs='git status -sb'
 alias gap='git add -p'
 alias gc='git commit -m'
 # short log
@@ -44,6 +44,19 @@ alias debuild='debuild --no-tgz-check --no-lintian'
 # Misc
 alias localip="ipconfig getifaddr en1"
 alias whois="whois -h whois-servers.net"
+alias mp="make privs"
+alias mc="make -B pages-desktop/common/ -j"
+
+t() {
+tail -f $1 | perl -pe "s/$2/\e[1;31;43m$&\e[0m/g"
+}
+loga() {
+t /var/log/node-init-cluster/auto2-miripiruni/workers.access.log $1
+}
+loge() {
+t /var/log/node-init-cluster/auto2-miripiruni/workers.error.log $1
+}
+
 
 function up() {
   local d=""
@@ -57,4 +70,25 @@ function up() {
     d=..
   fi
   cd $d
+}
+
+function dch_glog() {
+     since_commit="$(git log -1 --grep 
+'release\s[1-9]\.[0-9]\+\-[0-9]\+' --format="%H")"
+     changelog_records="$(git log $since_commit..HEAD --format='%s')"
+     incremented_changelog=""
+
+     while read -r record; do
+         if [ "$incremented_changelog" == "" ]; then
+             incremented_changelog="true"
+             dch -i "$record"
+         else
+             dch -a "$record"
+         fi
+     done <<< "$changelog_records"
+}
+
+function dlog() {
+     since_commit="$(git log -1 --grep 'release\s[1-9]\.[0-9]\+\-[0-9]\+' --format="%H")"
+     git log $since_commit..HEAD --format='%s'
 }
