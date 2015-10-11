@@ -68,3 +68,5 @@
     kdiff3 = difftool -t kdiff3
     meld = difftool -t meld
     guilt = "!f(){ git log --pretty='format:%an <%ae>' $@ | sort | uniq -c | sort -rn; }; f"
+[core]
+	excludesfile = ~/.dotfiles/.gitignore_global
