@@ -7,7 +7,6 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export GREP_OPTIONS='--color=auto --exclude="tags" --exclude="TAGS" --exclude="TAGS"'
 export GREP_COLOR='1;33'
-export LC_ALL='ru_RU.UTF-8'
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
