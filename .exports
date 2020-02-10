@@ -7,11 +7,12 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export GREP_OPTIONS='--color=auto --exclude="tags" --exclude="TAGS" --exclude="TAGS"'
 export GREP_COLOR='1;33'
+export LC_CTYPE="UTF-8"
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
-export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
-export NODE_PATH="/usr/local/lib/node_modules:"
-export PATH=/usr/local/git/bin:~/bin:$PATH
+# export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+#export NODE_PATH="/usr/local/lib/node_modules:"
+#export PATH="/usr/local/git/bin:~/bin:/home/miripiruni/Documents/www/local-sandbox/bin:$PATH"

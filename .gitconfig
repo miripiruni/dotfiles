@@ -1,6 +1,7 @@
 [user]
     name = miripiruni
     email = miripiruni@gmail.com
+	signingkey = 095C44AA2FB30EA3
 
 [merge]
     tool = threesome
@@ -72,3 +73,12 @@
 	user = miripiruni
 [core]
 	excludesfile = ~/.dotfiles/.gitignore_global
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+    required = true
+[gpg]
+	program = gpg2
+[diff]
+	noprefix = true

@@ -62,3 +62,5 @@ elif compctl &>/dev/null; then
   compctl -K _bem_completion bem
 fi
 ###-end-bem-completion-###
+
+source /Users/miripiruni/Library/Preferences/org.dystroy.broot/launcher/bash/br

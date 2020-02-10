@@ -3,7 +3,6 @@ alias :q='exit'
 alias ..='cd ..;' # can then do .. .. .. to move up multiple directories.
 alias ...='.. ..'
 alias cp='cp -i'
-alias rm='rm -I'
 alias mv='mv -i'
 alias ln='ln -i'
 alias la='ls -laohFG'
@@ -50,13 +49,6 @@ alias mc="make -B pages-desktop/common/ -j"
 t() {
 tail -f $1 | perl -pe "s/$2/\e[1;31;43m$&\e[0m/g"
 }
-loga() {
-t /var/log/node-init-cluster/auto2-miripiruni/workers.access.log $1
-}
-loge() {
-t /var/log/node-init-cluster/auto2-miripiruni/workers.error.log $1
-}
-
 
 function up() {
   local d=""
@@ -91,4 +83,8 @@ function dch_glog() {
 function dlog() {
      since_commit="$(git log -1 --grep 'release\s[1-9]\.[0-9]\+\-[0-9]\+' --format="%H")"
      git log $since_commit..HEAD --format='%s'
+}
+
+function random-string() {
+    cat /dev/urandom | env LC_ALL=C tr -dc "A-Za-z0-9\!#$\&\(\)\*+,-./\:\\\\\;\<=\>\?@[]^_" | fold -w ${1:-21} | head -n ${1:-1}
 }
