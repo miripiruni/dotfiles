@@ -75,5 +75,6 @@ fi
 [ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env"
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export PGDATA=$HOME/.postgresql/data
 
 source /Users/miripiruni/Library/Preferences/org.dystroy.broot/launcher/bash/br
