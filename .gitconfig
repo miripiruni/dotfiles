@@ -74,11 +74,13 @@
 [core]
 	excludesfile = ~/.dotfiles/.gitignore_global
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge --skip %f
+	process = git-lfs filter-process --skip
     required = true
 [gpg]
 	program = gpg2
 [diff]
 	noprefix = true
+[lfs "https://github.yandex-team.ru/"]
+	locksverify = false
