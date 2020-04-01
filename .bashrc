@@ -10,7 +10,7 @@ source $HOME/.dotfiles/.aliases
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export PATH="$PATH:/Users/miripiruni/Documents/arcadia:/Users/miripiruni/Documents/www/local-sandbox/bin"
+export PATH="$PATH:/Users/miripiruni/Documents/arc/arcadia"
 cd ~/Documents/www/
 ###-begin-npm-completion-###
 #
@@ -72,7 +72,6 @@ elif type compctl &>/dev/null; then
   compctl -K _npm_completion npm
 fi
 ###-end-npm-completion-###
-export PATH="$PATH:/Users/miripiruni/Documents/arcadia"
 [ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env"
 
 export PATH="$HOME/.cargo/bin:$PATH"
