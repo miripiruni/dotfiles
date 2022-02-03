@@ -1,17 +1,14 @@
-source ~/.profile
 #!/bin/bash
 
 source $HOME/.dotfiles/.exports
 source $HOME/.dotfiles/.aliases
 
-# Custom bash prompt
-#[ -r "$HOME/.dotfiles/.bash_prompt" ] && source "$HOME/.dotfiles/.bash_prompt"
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 export PATH="$PATH:/Users/miripiruni/Documents/arc/arcadia"
-cd ~/Documents/www/
+
 ###-begin-npm-completion-###
 #
 # npm command completion script
@@ -72,23 +69,10 @@ elif type compctl &>/dev/null; then
   compctl -K _npm_completion npm
 fi
 ###-end-npm-completion-###
-[ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env"
 
 export PATH="$HOME/.cargo/bin:$PATH"
 export PGDATA=$HOME/.postgresql/data
 
-source /Users/miripiruni/Library/Preferences/org.dystroy.broot/launcher/bash/br
-
-# Codi https://github.com/metakirby5/codi.vim
-# Usage: codi [filetype] [filename]
-codi() {
-  local syntax="${1:-python}"
-  shift
-  vim -c \
-    "let g:startify_disable_at_vimenter = 1 |\
-    set bt=nofile ls=0 noru nonu nornu |\
-    hi ColorColumn ctermbg=NONE |\
-    hi VertSplit ctermbg=NONE |\
-    hi NonText ctermfg=0 |\
-    Codi $syntax" "$@"
-}
+case $OSTYPE in darwin*)
+  source /Users/miripiruni/Library/Preferences/org.dystroy.broot/launcher/bash/br
+esac
