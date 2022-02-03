@@ -1,15 +1,14 @@
-# Zsh
+## Install
 
-https://github.com/robbyrussell/oh-my-zsh
+```
+git clone git://github.com/miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && make
+```
 
-# Vim setup
+## Misc
 
-http://github.com/miripiruni/vimi
+* Shell: https://github.com/robbyrussell/oh-my-zsh
+* Vim setup: http://github.com/miripiruni/vimi
+* Shortcuts cheatsheet: http://en.wikipedia.org/wiki/Bash_(Unix_shell)#Keyboard_shortcuts
+* Browser: [Firefox](http://www.mozilla.org/) + [tree style tab](https://addons.mozilla.org/ru/firefox/addon/tree-style-tab/?src=search)
 
-# Shortcuts cheatsheet
 
-http://en.wikipedia.org/wiki/Bash_(Unix_shell)#Keyboard_shortcuts
-
-# Browser
-
-[Firefox](http://www.mozilla.org/) + [tree style tab](https://addons.mozilla.org/ru/firefox/addon/tree-style-tab/?src=search)
