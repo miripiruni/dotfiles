@@ -22,9 +22,6 @@ alias E='f(){ $EDITOR ${*:-.};}; f'
 # Reload .bashrc
 alias refresh='. ~/.bashrc'
 
-# SVN
-alias sd='svn diff | more'
-
 # Git
 alias gd='git diff'
 alias gs='git status -sb'
