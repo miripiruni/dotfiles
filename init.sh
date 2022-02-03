@@ -1,4 +1,6 @@
 declare -a tools=("git" # https://git-scm.com/download/mac
+            "vim" # https://formulae.brew.sh/formula/vim
+
             # See https://github.com/ibraheemdev/modern-unix
             "bat" # https://github.com/sharkdp/bat
             "exa" # https://github.com/ogham/exa
