@@ -6,13 +6,13 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias ln='ln -i'
 alias la='ls -laohFG'
-# Позволяет создавать директории по цепочке /1/2/3/
+# Allows you to create nested dirs: /1/2/3/
 alias mkdir='mkdir -p'
 alias md='mkdir'
-# печатать размеры файлов в удобном для человека виде
+# Human readable filesizes
 alias df='df -h'
 
-# По умолчанию пинговать 5 раз
+# Stop after five packets
 alias ping='ping -c 5'
 
 # Editor
@@ -30,9 +30,9 @@ alias gd='git diff'
 alias gs='git status -sb'
 alias gap='git add -p'
 alias gc='git commit -m'
-# short log
+# Short log
 alias gsl="git log --format='%Cgreen%h%Creset %C(cyan)%an%Creset - %s' --graph"
-# log
+# Log
 alias gl="git plog"
 
 
