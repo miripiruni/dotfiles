@@ -1,7 +1,6 @@
 [user]
     name = miripiruni
     email = miripiruni@gmail.com
-	signingkey = 095C44AA2FB30EA3
 
 [merge]
     tool = threesome
