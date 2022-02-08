@@ -10,6 +10,7 @@ declare -a tools=("git" # https://git-scm.com/download/mac
             "bottom" # https://github.com/ClementTsang/bottom
             "procs" # https://github.com/dalance/procs
             "zoxide" # https://github.com/ajeetdsouza/zoxide
+            "nvm" # https://github.com/nvm-sh/nvm
             )
 
 case $OSTYPE in darwin*)
@@ -24,6 +25,9 @@ case $OSTYPE in darwin*)
     do
         brew install "$tool"
     done
+
+    mkdir ~/.nvm
+
 
     https://ohmyz.sh/#install
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
