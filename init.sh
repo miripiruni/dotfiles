@@ -11,6 +11,7 @@ declare -a tools=("git" # https://git-scm.com/download/mac
             "procs" # https://github.com/dalance/procs
             "zoxide" # https://github.com/ajeetdsouza/zoxide
             "nvm" # https://github.com/nvm-sh/nvm
+            "mongodb-community" # https://docs.mongodb.com/guides/
             )
 
 case $OSTYPE in darwin*)
@@ -20,6 +21,7 @@ case $OSTYPE in darwin*)
     esac
 
     brew update
+    brew tap mongodb/brew
 
     for tool in "${tools[@]}"
     do
@@ -27,6 +29,9 @@ case $OSTYPE in darwin*)
     done
 
     mkdir ~/.nvm
+
+    # start mongo db
+    brew services start mongodb/brew/mongodb-community
 
 
     https://ohmyz.sh/#install
