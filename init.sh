@@ -13,6 +13,7 @@ declare -a tools=("git" # https://git-scm.com/download/mac
             "nvm" # https://github.com/nvm-sh/nvm
             "mongodb-community" # https://docs.mongodb.com/guides/
             "task" # https://taskwarrior.org/download/
+            "tasksh" # https://gothenburgbitfactory.org/projects/tasksh.html
             )
 
 case $OSTYPE in darwin*)
