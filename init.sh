@@ -31,7 +31,9 @@ case $OSTYPE in darwin*)
         brew install "$tool"
     done
 
-    mkdir ~/.nvm
+    if [ ! -d "~/.nvm" ]; then
+        mkdir ~/.nvm
+    fi
 
     # start mongo db
     brew services start mongodb/brew/mongodb-community
