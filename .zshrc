@@ -134,6 +134,8 @@ case $OSTYPE in darwin*)
         if [ -f '/Users/miripiruni/yandex-cloud/completion.zsh.inc' ]; then source '/Users/miripiruni/yandex-cloud/completion.zsh.inc'; fi
     esac
 
+    export PATH=$HOME/yandex-cloud/bin/:$PATH
+
     # https://docs.yandex-team.ru/skotty/quick-start-guide
     case $(which skotty) in !("skotty not found"))
         eval `skotty ssh env`
