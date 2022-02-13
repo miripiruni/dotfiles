@@ -14,6 +14,7 @@ declare -a tools=("git" # https://git-scm.com/download/mac
             "mongodb-community" # https://docs.mongodb.com/guides/
             "task" # https://taskwarrior.org/download/
             "tasksh" # https://gothenburgbitfactory.org/projects/tasksh.html
+            "zsh-completion"
             )
 
 case $OSTYPE in darwin*)
