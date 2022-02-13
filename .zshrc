@@ -123,6 +123,10 @@ export NVM_DIR="$HOME/.nvm"
 . "$HOME/.cargo/env"
 export PATH=/opt/homebrew/bin:$PATH
 
+case $OSTYPE in linux*)
+    export PATH=/home/linuxbrew/.linuxbrew/bin:$PATH
+esac
+
 case $OSTYPE in darwin*)
     # https://cloud.yandex.com/en/docs/cli/operations/install-cli#interactive
 
