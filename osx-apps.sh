@@ -10,7 +10,11 @@ brew install --cask reaper
 brew install --cask fsnotes
 brew install --cask marta
 
-# alacritty
+# https://alacritty.org
+brew install --cask alacritty
+mv ~/.config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml.default
+ln -s ~/.dotfiles/alacritty.yml ~/.config/alacritty/alacritty.yml
+
 # AnkiApp
 # clipy
 # karabiner
