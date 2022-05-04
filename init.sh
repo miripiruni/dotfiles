@@ -3,6 +3,7 @@ declare -a tools=("git" # https://git-scm.com/download/mac
 
             # See https://github.com/ibraheemdev/modern-unix
             "bat" # https://github.com/sharkdp/bat
+            "tldr" # https://tldr.sh
             "exa" # https://github.com/ogham/exa
             "dust" # https://github.com/bootandy/dust
             "ripgrep" # https://github.com/BurntSushi/ripgrep
