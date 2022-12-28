@@ -9,6 +9,7 @@ brew install --cask yandex-disk
 brew install --cask reaper
 brew install --cask fsnotes
 brew install --cask marta
+brew install --cask raycast
 
 # https://alacritty.org
 brew install --cask alacritty
