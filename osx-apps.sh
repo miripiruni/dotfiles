@@ -7,7 +7,6 @@ brew install --cask notion
 brew install --cask font-fira-code
 brew install --cask yandex-disk
 brew install --cask reaper
-brew install --cask fsnotes
 brew install --cask marta
 brew install --cask raycast
 
