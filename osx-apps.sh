@@ -1,5 +1,5 @@
 brew install --cask firefox
-brew install --cask spectacle
+brew install --cask rectangle
 brew install --cask vlc
 brew install --cask zoomus
 brew install --cask xmind-zen
