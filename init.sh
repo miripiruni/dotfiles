@@ -17,6 +17,7 @@ declare -a tools=("git" # https://git-scm.com/download/mac
             "tasksh" # https://gothenburgbitfactory.org/projects/tasksh.html
             "zsh-completion"
             "stats" # https://github.com/exelban/stats
+            "meetingbar" # https://github.com/leits/MeetingBar
             )
 
 case $OSTYPE in darwin*)
