@@ -12,14 +12,14 @@ brew install --cask raycast
 
 # https://alacritty.org
 brew install --cask alacritty
+# TODO: XDG dirs
 mv ~/.config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml.default
 ln -s ~/.dotfiles/alacritty.yml ~/.config/alacritty/alacritty.yml
 
 # AnkiApp
-# clipy
-# karabiner
-# little-fingers
-# quick-plan
-# spotify
-# telegram
-
+# Clipy
+# Karabiner
+# Little-fingers
+# MeetingBar
+# Quick-plan
+# Telegram
