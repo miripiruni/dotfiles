@@ -1,0 +1,26 @@
+# https://wiki.archlinux.org/title/XDG_Base_Directory
+# https://gist.github.com/sharadhr/39b804236c1941e9c30d90af828ad41e#214xdg-user-dirs
+
+XDG_CACHE_HOME="$HOME/.cache"
+XDG_LOGS_HOME="$HOME/.cache/logs"
+XDG_CONFIG_HOME="$HOME/.config"
+XDG_DATA_HOME="$HOME/.local/share"
+XDG_STATE_HOME="$HOME/.local/state"
+
+case $OSTYPE in darwin*)
+    # https://www.freedesktop.org/wiki/Software/xdg-user-dirs/
+    XDG_DESKTOP_DIR="$HOME/Desktop"
+    XDG_DOCUMENTS_DIR="$HOME/Documents"
+    XDG_DOWNLOAD_DIR="$HOME/Downloads"
+    XDG_MUSIC_DIR="$HOME/Music"
+    XDG_PICTURES_DIR="$HOME/Pictures"
+    XDG_PUBLICSHARE_DIR="$HOME/Public"
+    XDG_TEMPLATES_DIR="$HOME/Templates"
+    XDG_VIDEOS_DIR="$HOME/Videos"
+esac
+
+# case $OSTYPE in linux*)
+# esac
+
+# XDG_DATA_DIRS=/usr/local/share:/usr/share
+# XDG_CONFIG_DIRS

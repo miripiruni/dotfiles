@@ -100,8 +100,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# XDG Base Directories
+source $HOME/.dotfiles/.xdg.dirs
 
+# TODO: refactor
 source $HOME/.dotfiles/.exports
+
+# TODO: refactor
 source $HOME/.dotfiles/.aliases
 
 HISTFILE=~/.zsh/.histfile
