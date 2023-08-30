@@ -1,0 +1,12 @@
+case $OSTYPE in darwin*)
+    # https://cloud.yandex.com/en/docs/cli/operations/install-cli#interactive
+    case $(which yc) in !("yc not found"))
+        # The next line updates PATH for Yandex Cloud CLI.
+        if [ -f '/Users/miripiruni/yandex-cloud/path.bash.inc' ]; then source '/Users/miripiruni/yandex-cloud/path.bash.inc'; fi
+
+        # The next line enables shell command completion for yc.
+        if [ -f '/Users/miripiruni/yandex-cloud/completion.zsh.inc' ]; then source '/Users/miripiruni/yandex-cloud/completion.zsh.inc'; fi
+    esac
+
+    export PATH=$HOME/yandex-cloud/bin/:$PATH
+esac

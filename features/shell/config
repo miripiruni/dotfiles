@@ -1,0 +1,34 @@
+# Shell
+alias :q='exit'
+alias ..='cd ..;' # can then do .. .. .. to move up multiple directories.
+alias ...='.. ..'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ln='ln -i'
+alias la='ls -laohFG'
+
+# Allows you to create nested dirs: /1/2/3/
+alias mkdir='mkdir -p'
+alias md='mkdir'
+
+# Human readable filesizes
+alias df='df -h'
+
+# Stop after five packets
+alias ping='ping -c 5'
+
+# Reload .bashrc
+alias refresh='. ~/.bashrc'
+
+export PAGER=less
+## Don’t clear the screen after quitting a manual page
+export MANPAGER="less -X"
+export LESS="-X -M -E -R"
+
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+export GREP_OPTIONS='--color=auto --exclude="tags" --exclude="TAGS" --exclude="TAGS"'
+export GREP_COLOR='1;33'
+
+export LC_CTYPE="UTF-8"

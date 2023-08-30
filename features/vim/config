@@ -1,0 +1,4 @@
+export EDITOR="vim"
+
+alias e='vim'
+alias E='f(){ $EDITOR ${*:-.};}; f'

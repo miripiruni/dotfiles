@@ -1,0 +1,11 @@
+# Git
+alias gd='git diff'
+alias gs='git status -sb'
+alias gap='git add -p'
+alias gc='git commit -m'
+
+# Short log
+alias gsl="git log --format='%Cgreen%h%Creset %C(cyan)%an%Creset - %s' --graph"
+
+# Log
+alias gl="git plog"
