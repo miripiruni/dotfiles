@@ -1,9 +1,9 @@
-./.xdg.dirs
-
 case $OSTYPE in darwin*)
-    ./tools/macos.sh
+    brew uninstall jq
 esac
 
 case $OSTYPE in linux*)
-    ./tools/linux.sh
+    sudo apt-get -y remove jq
 esac
+
+

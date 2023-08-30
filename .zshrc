@@ -20,6 +20,7 @@ source $HOME/.dotfiles/features/yandex-cloud/config
 unsetopt beep
 bindkey -v
 
+# TODO: XDG Dirs
 zstyle :compinstall filename '/home/miripiruni/.zshrc'
 
 autoload -Uz compinit

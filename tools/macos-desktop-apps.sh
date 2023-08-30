@@ -1,8 +1,8 @@
 # Ensure brew is installes
-source ../features/brew/setup.sh
+$HOME/.dotfiles/features/brew/setup.sh
 
 # Mac OS Applications:
-declare -a app=("alacritty" # https://alacritty.org
+declare -a app=(
             "ankiapp-anki"
             "clipy"
             "erctangle"
@@ -25,8 +25,8 @@ do
     brew install --cask "$app"
 done
 
-# Setup config files for Alacritty:
-source ../features/alacritty/setup.sh
+
+# $HOME/.dotfiles/features/alacritty/setup.sh
 
 # TODO: not in brew cask:
 # Little-fingers

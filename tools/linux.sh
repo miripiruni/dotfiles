@@ -1,1 +1,1 @@
-source ./any-platform.sh
+$HOME/.dotfiles/tools/any-platform.sh

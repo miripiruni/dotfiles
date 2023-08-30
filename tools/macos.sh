@@ -1,5 +1,5 @@
-source ./any-platform.sh
+$HOME/.dotfiles/tools/any-platform.sh
 
-source ./macos-cli.sh
+$HOME/.dotfiles/tools/macos-cli.sh
 
-source ./macos-desktop-apps.sh
+$HOME/.dotfiles/tools/macos-desktop-apps.sh

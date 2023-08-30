@@ -1,11 +1,11 @@
 # https://wiki.archlinux.org/title/XDG_Base_Directory
 # https://gist.github.com/sharadhr/39b804236c1941e9c30d90af828ad41e#214xdg-user-dirs
 
-XDG_CACHE_HOME="$HOME/.cache"
-XDG_LOGS_HOME="$HOME/.cache/logs"
-XDG_CONFIG_HOME="$HOME/.config"
-XDG_DATA_HOME="$HOME/.local/share"
-XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_LOGS_HOME="$HOME/.cache/logs"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
 
 case $OSTYPE in darwin*)
     # https://www.freedesktop.org/wiki/Software/xdg-user-dirs/

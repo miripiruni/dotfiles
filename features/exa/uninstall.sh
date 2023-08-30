@@ -1,9 +1,9 @@
-./.xdg.dirs
-
 case $OSTYPE in darwin*)
-    ./tools/macos.sh
+    brew uninstall exa
 esac
 
 case $OSTYPE in linux*)
-    ./tools/linux.sh
+    sudo apt -y remove exa
 esac
+
+
