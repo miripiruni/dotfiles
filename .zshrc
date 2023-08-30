@@ -1,9 +1,6 @@
 # XDG Base Directories
 source $HOME/.dotfiles/.xdg.dirs
 
-# TODO: refactor
-source $HOME/.dotfiles/.exports
-
 # Features
 source $HOME/.dotfiles/features/brew/config
 source $HOME/.dotfiles/features/git/aliases
