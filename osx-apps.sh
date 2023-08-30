@@ -14,7 +14,7 @@ brew install --cask raycast
 brew install --cask alacritty
 # TODO: XDG dirs
 mv ~/.config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml.default
-ln -s ~/.dotfiles/alacritty.yml ~/.config/alacritty/alacritty.yml
+ln -s ~/.dotfiles/features/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 
 # AnkiApp
 # Clipy
