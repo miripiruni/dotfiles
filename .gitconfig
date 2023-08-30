@@ -67,7 +67,7 @@
 [github]
 	user = miripiruni
 [core]
-	excludesfile = ~/.dotfiles/.gitignore_global
+	excludesfile = ~/.dotfiles/features/git/.gitignore
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge --skip %f
@@ -77,5 +77,3 @@
 	program = gpg2
 [diff]
 	noprefix = true
-[lfs "https://github.yandex-team.ru/"]
-	locksverify = false
