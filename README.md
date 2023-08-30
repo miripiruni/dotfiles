@@ -7,15 +7,8 @@
 
 ## How to use
 
-### Install on OS X
-
 ```
-git clone git://github.com/miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && make
-```
-
-### Install on Ubuntu
-```
-sudo apt-get update && sudo apt-get install git build-essential && git clone git://github.com/miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && make
+git clone git://github.com/miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./run.sh
 ```
 
 
