@@ -1,5 +1,7 @@
+CURDIR=$(cd `dirname $0` && pwd)
+
 # Ensure brew is installes
-$HOME/.dotfiles/features/brew/setup.sh
+$CURDIR/../features/brew/setup.sh
 
 # Mac OS Applications:
 declare -a app=(
@@ -25,7 +27,8 @@ do
 done
 
 
-# $HOME/.dotfiles/features/alacritty/setup.sh
+$CURDIR/../features/alacritty/setup.sh
+$CURDIR/../features/vscode/setup.sh
 
 # TODO: not in brew cask:
 # Little-fingers https://github.com/shauninman/Little-Fingers
