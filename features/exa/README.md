@@ -1,6 +1,12 @@
 # exa
 
-A modern replacement for ‘ls’.
+A modern replacement for ‘ls’. Site: [the.exa.website](https://the.exa.website).
+
+## Setup
+
+Run `./setup.sh`.
 
 
-See: https://github.com/ogham/exa#installation
+## Uninstall
+
+Run `./uninstall.sh`.
