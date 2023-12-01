@@ -5,11 +5,19 @@
 1. Setup uses [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 2. Feature Slices. For any tool and technology there is separate scope (config file, directory, description, envs, etc)
 
+
 ## How to use
 
-```
-git clone git://github.com/miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./run.sh
-```
+1. All features:
+    ```
+    git clone git://github.com/miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./run.sh
+    ```
+
+2. One feature:
+    ```
+    feature/<name>/setup.sh
+    feature/<name>/uninstall.sh
+    ```
 
 
 ## Links
