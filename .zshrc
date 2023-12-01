@@ -7,7 +7,6 @@ source $HOME/.dotfiles/features/brew/config
 source $HOME/.dotfiles/features/git/aliases
 source $HOME/.dotfiles/features/npm/config
 source $HOME/.dotfiles/features/oh-my-zsh/config
-source $HOME/.dotfiles/features/random-string/alias
 source $HOME/.dotfiles/features/shell/config
 source $HOME/.dotfiles/features/skotty/config
 source $HOME/.dotfiles/features/vim/config
