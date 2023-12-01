@@ -1,0 +1,2 @@
+# See /etc/zshrc_Apple_Terminal
+export ZDOTDIR="$XDG_STATE_HOME/zsh"
