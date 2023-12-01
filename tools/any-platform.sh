@@ -11,3 +11,4 @@ echo "⚠️  Previous configuration files moved to ${CONFIGS_BACKUP_DIR}. After
 echo ""
 
 $HOME/.dotfiles/features/git/setup.sh
+$HOME/.dotfiles/features/tldr/setup.sh

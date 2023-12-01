@@ -10,7 +10,6 @@ declare -a tools=("bat" # https://github.com/sharkdp/bat
             "stats" # https://github.com/exelban/stats
             "task" # https://taskwarrior.org/download/
             "tasksh" # https://gothenburgbitfactory.org/projects/tasksh.html
-            "tldr" # https://tldr.sh
             "zsh-completion"
             )
 
