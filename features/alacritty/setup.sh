@@ -1,5 +1,7 @@
+CURDIR=$(cd `dirname $0` && pwd)
+
 # Depends on Fira Code Font
-../font-fira-code/setup.sh
+$CURDIR/../font-fira-code/setup.sh
 
 case $OSTYPE in darwin*)
     brew install --cask alacritty
@@ -16,6 +18,5 @@ case $OSTYPE in darwin*)
         echo "Directory $ALACRITTY_CONFIG_DIR created."
     fi
 
-    DIR=$(cd `dirname $0` && pwd)
-    ln -s $DIR/alacritty.yml $ALACRITTY_CONFIG_FILE
+    ln -s $CURDIR/alacritty.yml $ALACRITTY_CONFIG_FILE
 esac
