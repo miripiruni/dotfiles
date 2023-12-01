@@ -8,16 +8,12 @@
 
 ## How to use
 
-1. All features:
-    ```
-    git clone git://github.com/miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./run.sh
-    ```
+Any [feature](./features/) can be used separately, to test if you like it. You
+can install/uninstall any feature manualy or setup all of them:
 
-2. One feature:
-    ```
-    feature/<name>/setup.sh
-    feature/<name>/uninstall.sh
-    ```
+```console
+git clone git://github.com/miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./run.sh
+```
 
 
 ## Links
