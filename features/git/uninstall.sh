@@ -3,7 +3,7 @@ case $OSTYPE in darwin*)
 esac
 
 case $OSTYPE in linux*)
-    sudo apt-get -y remove git-all
+    sudo apt -y remove git-all
 esac
 
 rm $HOME/.gitconfig

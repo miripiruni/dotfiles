@@ -1,5 +1,5 @@
 case $OSTYPE in darwin*)
-    # https://docs.yandex-team.ru/skotty/quick-start-guide
+    # Docs: https://nda.ya.ru/t/5f725uY_5gqYDm
     case $(which skotty) in !("skotty not found"))
         eval `skotty ssh env`
     esac

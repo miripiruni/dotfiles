@@ -5,8 +5,8 @@ case $OSTYPE in darwin*)
 esac
 
 case $OSTYPE in linux*)
-    sudo apt-get update
-    sudo apt-get -y install git-all
+    sudo apt update
+    sudo apt -y install git-all
 esac
 
 git version

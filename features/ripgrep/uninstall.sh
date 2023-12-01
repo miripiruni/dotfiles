@@ -3,5 +3,5 @@ case $OSTYPE in darwin*)
 esac
 
 case $OSTYPE in linux*)
-    sudo apt-get -y remove ripgrep
+    sudo apt -y remove ripgrep
 esac

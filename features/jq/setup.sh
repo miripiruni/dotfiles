@@ -3,8 +3,10 @@ case $OSTYPE in darwin*)
 esac
 
 case $OSTYPE in linux*)
-    sudo apt-get update
-    sudo apt-get -y install jq
+    sudo apt update
+    sudo apt -y install jq
 esac
+
+jq --version
 
 

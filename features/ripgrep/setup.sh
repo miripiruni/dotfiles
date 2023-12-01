@@ -3,6 +3,8 @@ case $OSTYPE in darwin*)
 esac
 
 case $OSTYPE in linux*)
-    sudo apt-get update
-    sudo apt-get install ripgrep
+    sudo apt update
+    sudo apt install ripgrep
 esac
+
+rg --version
