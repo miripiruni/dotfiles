@@ -7,7 +7,6 @@ declare -a app=(
             "clipy"
             "erctangle"
             "firefox"
-            "font-fira-code"
             "marta"
             "meetingbar" # https://github.com/leits/MeetingBar
             "notion"
