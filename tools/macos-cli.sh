@@ -1,4 +1,4 @@
-# Ensure brew is installes
+# Ensure brew is installed
 $HOME/.dotfiles/features/brew/setup.sh
 
 # See https://github.com/ibraheemdev/modern-unix
