@@ -7,6 +7,7 @@ case $OSTYPE in linux*)
     sudo apt -y install exa
 esac
 
+which exa
 exa --version
 
 

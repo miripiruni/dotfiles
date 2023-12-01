@@ -7,3 +7,6 @@ case $OSTYPE in linux*)
     sudo apt update
     sudo apt -y install vim
 esac
+
+which vim
+vim --version

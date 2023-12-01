@@ -7,4 +7,5 @@ case $OSTYPE in linux*)
     sudo apt install ripgrep
 esac
 
+which rg
 rg --version

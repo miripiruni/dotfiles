@@ -9,4 +9,5 @@ case $OSTYPE in linux*)
     sudo apt -y install tldr
 esac
 
+which tldr
 tldr --version

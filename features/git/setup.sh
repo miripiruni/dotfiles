@@ -9,6 +9,7 @@ case $OSTYPE in linux*)
     sudo apt -y install git-all
 esac
 
+which git
 git version
 
 ln -s $HOME/.dotfiles/.gitconfig ~/.gitconfig

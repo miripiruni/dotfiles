@@ -7,6 +7,7 @@ case $OSTYPE in linux*)
     sudo apt -y install jq
 esac
 
+which jq
 jq --version
 
 
