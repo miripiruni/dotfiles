@@ -1,0 +1,19 @@
+# Shell
+alias :q='exit'
+alias ..='cd ..;' # can then do .. .. .. to move up multiple directories.
+alias ...='.. ..'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ln='ln -i'
+alias la='ls -laohFG'
+
+# Allows you to create nested dirs: /1/2/3/
+alias mkdir='mkdir -p'
+alias md='mkdir'
+
+# Human readable filesizes
+alias df='df -h'
+
+# Stop after five packets
+alias ping='ping -c 5'
+
