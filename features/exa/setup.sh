@@ -10,4 +10,3 @@ esac
 which exa
 exa --version
 
-

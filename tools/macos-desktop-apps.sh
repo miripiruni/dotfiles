@@ -28,6 +28,5 @@ done
 # $HOME/.dotfiles/features/alacritty/setup.sh
 
 # TODO: not in brew cask:
-# Little-fingers
+# Little-fingers https://github.com/shauninman/Little-Fingers
 # Quick-plan
-# Telegram
