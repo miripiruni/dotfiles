@@ -9,4 +9,4 @@ echo ""
 
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
-#ZSH="$OH_MY_ZSH_DIR" sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ZSH="$OH_MY_ZSH_DIR" sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
