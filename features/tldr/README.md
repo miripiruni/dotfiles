@@ -1,0 +1,18 @@
+# tldr
+
+Simplified and community-driven man pages
+
+Site: [tldr.sh](https://tldr.sh)
+
+## Setup
+
+1. Run `./setup.sh`.
+2.  Add to your `.zshrc`:
+    ```bash
+    source $HOME/.dotfiles/features/tldr/config
+    ```
+
+## Uninstall
+
+1. Run `./uninstall.sh`.
+2. Remove from your `.zshrc` feature/tldr/config.
