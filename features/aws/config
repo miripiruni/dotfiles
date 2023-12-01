@@ -1,0 +1,3 @@
+# https://docs.aws.amazon.com/sdkref/latest/guide/file-location.html
+export AWS_CONFIG_FILE=$XDG_STATE_HOME/aws/config
+export AWS_SHARED_CREDENTIALS_FILE=$XDG_STATE_HOME/aws/credentials

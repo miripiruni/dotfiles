@@ -2,6 +2,7 @@
 source $HOME/.dotfiles/.xdg.dirs
 
 # Features
+source $HOME/.dotfiles/features/aws/config
 source $HOME/.dotfiles/features/brew/config
 source $HOME/.dotfiles/features/git/aliases
 source $HOME/.dotfiles/features/oh-my-zsh/config
