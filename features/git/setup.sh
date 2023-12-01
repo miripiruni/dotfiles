@@ -12,5 +12,8 @@ esac
 which git
 git version
 
-ln -s $HOME/.dotfiles/.gitconfig ~/.gitconfig
-ln -s $HOME/.dotfiles/features/git/.gitignore ~/.gitignore
+CURDIR=$(cd `dirname $0` && pwd)
+
+# TODO: move .gitconfig to feature/git/
+ln -s $CURDIR/../../.gitconfig $HOME/.gitconfig
+ln -s $CURDIR/.gitignore $HOME/.gitignore
