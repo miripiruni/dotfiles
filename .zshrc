@@ -7,11 +7,11 @@ source $HOME/.dotfiles/features/git/aliases
 source $HOME/.dotfiles/features/nvm/config
 source $HOME/.dotfiles/features/oh-my-zsh/config
 source $HOME/.dotfiles/features/random-string/alias
-source $HOME/.dotfiles/features/shell-history/config
 source $HOME/.dotfiles/features/shell/config
 source $HOME/.dotfiles/features/skotty/config
 source $HOME/.dotfiles/features/vim/config
 source $HOME/.dotfiles/features/yandex-cloud/config
+source $HOME/.dotfiles/features/zsh-history/config
 
 ########################
 
