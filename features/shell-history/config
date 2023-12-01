@@ -1,11 +1,7 @@
 # Larger history (allow 32³ entries; default is 500)
 export HISTSIZE=32768
+export HISTFILE="$XDG_STATE_HOME/zsh/.history"
 export HISTFILESIZE=$HISTSIZE
 
-export HISTCONTROL=ignoredups
-
-# https://stackoverflow.com/questions/6475524/how-do-i-prevent-commands-from-showing-up-in-bash-history
-# Make some commands not show up in history
-export HISTIGNORE="[ \t]*"
-
-HISTFILE=~/.zsh/.histfile
+# to prevent a command in the zsh from being saved into history
+setopt HIST_IGNORE_SPACE
