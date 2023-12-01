@@ -1,5 +1,4 @@
 # https://ohmyz.sh/#install
-XDG_DATA_HOME="$HOME/.local/share"
 OH_MY_ZSH_DIR="$XDG_DATA_HOME/oh-my-zsh"
 
 CONFIGS_BACKUP_DIR="$HOME/.configs-backup"
