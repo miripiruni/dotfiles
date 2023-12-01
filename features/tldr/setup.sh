@@ -1,5 +1,3 @@
-# "tldr" # https://tldr.sh
-
 case $OSTYPE in darwin*)
     brew install tldr
 esac
