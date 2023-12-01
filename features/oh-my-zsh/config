@@ -73,10 +73,8 @@ plugins=(
     git
     macos
     node
-    #nvm
     ripgrep
     taskwarrior
-    tmux
     zoxide
 )
 
