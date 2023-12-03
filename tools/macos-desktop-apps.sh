@@ -28,6 +28,7 @@ done
 
 
 $CURDIR/../features/alacritty/setup.sh
+$CURDIR/../features/numi/setup.sh
 $CURDIR/../features/vscode/setup.sh
 
 # TODO: not in brew cask:
