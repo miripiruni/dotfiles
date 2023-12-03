@@ -7,7 +7,6 @@ $CURDIR/../features/brew/setup.sh
 declare -a app=(
             "ankiapp-anki"
             "clipy"
-            "erctangle"
             "firefox"
             "marta"
             "meetingbar" # https://github.com/leits/MeetingBar
@@ -28,6 +27,7 @@ done
 
 
 $CURDIR/../features/alacritty/setup.sh
+$CURDIR/../features/amethyst/setup.sh
 $CURDIR/../features/numi/setup.sh
 $CURDIR/../features/vscode/setup.sh
 
