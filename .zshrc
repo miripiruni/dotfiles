@@ -13,6 +13,7 @@ source $HOME/.dotfiles/features/skotty/config
 source $HOME/.dotfiles/features/vim/alias
 source $HOME/.dotfiles/features/vim/config
 source $HOME/.dotfiles/features/yandex-cloud/config
+source $HOME/.dotfiles/features/yq/completion
 source $HOME/.dotfiles/features/zsh-history/config
 source $HOME/.dotfiles/features/zsh-macos-sessions/config
 

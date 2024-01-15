@@ -18,4 +18,5 @@ $HOME/.dotfiles/features/oh-my-zsh/setup.sh
 $HOME/.dotfiles/features/ripgrep/setup.sh
 $HOME/.dotfiles/features/tldr/setup.sh
 $HOME/.dotfiles/features/vim/setup.sh
+$HOME/.dotfiles/features/yq/setup.sh
 $HOME/.dotfiles/features/zoxide/setup.sh
