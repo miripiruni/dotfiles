@@ -8,6 +8,7 @@ declare -a app=(
             "ankiapp-anki"
             "clipy"
             "firefox"
+            "flux"
             "marta"
             "meetingbar" # https://github.com/leits/MeetingBar
             "notion"
