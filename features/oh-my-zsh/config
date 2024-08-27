@@ -73,7 +73,6 @@ plugins=(
     git
     macos
     node
-    ripgrep
     taskwarrior
     zoxide
 )
