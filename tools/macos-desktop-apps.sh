@@ -23,6 +23,7 @@ declare -a app=(
             "sysex-librarian"
             "telegram"
             "vlc"
+            "vscodium"
             "xmind-zen"
             "yandex-disk"
             "zoomus"
