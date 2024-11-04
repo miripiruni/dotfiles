@@ -20,6 +20,7 @@ declare -a app=(
             "paulxstretch"
             "raycast"
             "reaper"
+            "sysex-librarian"
             "telegram"
             "vlc"
             "xmind-zen"
