@@ -16,7 +16,7 @@ declare -a apps=(
             "transmission"
             "vlc"
             "vscodium"
-            "xmind-zen"
+            "xmind"
             "yandex-disk"
             "zoomus"
             )
