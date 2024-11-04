@@ -12,13 +12,13 @@ declare -a app=(
             "flux" # https://justgetflux.com/
             "keepassxc"
             # "little-snitch"
-            "marta"
+            #"marta"
             "meetingbar" # https://github.com/leits/MeetingBar
-            "notion"
+            #"notion"
             "numi"
             "obsidian"
             "paulxstretch"
-            "raycast"
+            #"raycast"
             "reaper"
             "sysex-librarian"
             "telegram"
