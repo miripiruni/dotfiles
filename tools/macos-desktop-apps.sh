@@ -9,7 +9,7 @@ declare -a app=(
             "ankiapp-anki"
             "clipy"
             "firefox"
-            "flux"
+            "flux" # https://justgetflux.com/
             "marta"
             "meetingbar" # https://github.com/leits/MeetingBar
             "notion"
