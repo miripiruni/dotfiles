@@ -10,6 +10,7 @@ declare -a app=(
             "clipy"
             "firefox"
             "flux" # https://justgetflux.com/
+            "keepassxc"
             "marta"
             "meetingbar" # https://github.com/leits/MeetingBar
             "notion"
