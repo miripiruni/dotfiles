@@ -1,7 +1,7 @@
 CURDIR=$(cd `dirname $0` && pwd)
 
 # Mac OS Applications:
-declare -a app=(
+declare -a apps=(
             "ankiapp-anki"
             "clipy"
             "firefox"
