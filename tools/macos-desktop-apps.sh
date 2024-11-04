@@ -11,6 +11,7 @@ declare -a app=(
             "firefox"
             "flux" # https://justgetflux.com/
             "keepassxc"
+            # "little-snitch"
             "marta"
             "meetingbar" # https://github.com/leits/MeetingBar
             "notion"
