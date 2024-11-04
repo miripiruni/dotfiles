@@ -1,5 +1,5 @@
 case $OSTYPE in darwin*)
-    brew uninstall --cask font-fira-code
+    brew uninstall font-fira-code
 esac
 
 case $OSTYPE in linux*)

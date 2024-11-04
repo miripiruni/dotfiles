@@ -1,8 +1,7 @@
 # https://github.com/tonsky/FiraCode/wiki/Installing
 
 case $OSTYPE in darwin*)
-    brew tap homebrew/cask-fonts
-    brew install --cask font-fira-code
+    brew install font-fira-code
 esac
 
 case $OSTYPE in linux*)
