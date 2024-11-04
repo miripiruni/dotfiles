@@ -1,4 +1,5 @@
-./.xdg.dirs
+# XDG Base Directories
+source $HOME/.dotfiles/.xdg.dirs
 
 $HOME/.dotfiles/tools/any-platform.sh
 
