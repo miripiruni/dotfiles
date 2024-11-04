@@ -11,17 +11,14 @@ declare -a app=(
             "firefox"
             "flux" # https://justgetflux.com/
             "keepassxc"
-            # "little-snitch"
-            #"marta"
             "meetingbar" # https://github.com/leits/MeetingBar
-            #"notion"
             "numi"
             "obsidian"
             "paulxstretch"
-            #"raycast"
             "reaper"
             "sysex-librarian"
             "telegram"
+            "transmission"
             "vlc"
             "vscodium"
             "xmind-zen"
