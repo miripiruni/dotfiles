@@ -1,9 +1,9 @@
 case $OSTYPE in darwin*)
-    brew uninstall exa
+    brew uninstall eza
 esac
 
 case $OSTYPE in linux*)
-    sudo apt -y remove exa
+    sudo apt -y remove eza
 esac
 
 

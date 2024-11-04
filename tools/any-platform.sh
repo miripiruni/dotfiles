@@ -10,7 +10,7 @@ echo "⚠️  Previous configuration files moved to ${CONFIGS_BACKUP_DIR}. After
 echo ""
 
 $HOME/.dotfiles/features/aws/setup.sh
-$HOME/.dotfiles/features/exa/setup.sh
+$HOME/.dotfiles/features/eza/setup.sh
 $HOME/.dotfiles/features/font-fira-code/setup.sh
 $HOME/.dotfiles/features/git/setup.sh
 $HOME/.dotfiles/features/jq/setup.sh
