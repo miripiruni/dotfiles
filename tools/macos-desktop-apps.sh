@@ -17,6 +17,7 @@ declare -a app=(
             "notion"
             "numi"
             "obsidian"
+            "paulxstretch"
             "raycast"
             "reaper"
             "telegram"
