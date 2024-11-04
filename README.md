@@ -12,7 +12,7 @@ Any [feature](./features/) can be used separately, to test if you like it. You
 can install/uninstall any feature manualy or setup all of them:
 
 ```console
-git clone git://github.com/miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./run.sh
+git clone git@github.com:miripiruni/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./run.sh
 ```
 
 
