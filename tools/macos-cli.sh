@@ -1,6 +1,3 @@
-# Ensure brew is installed
-$HOME/.dotfiles/features/brew/setup.sh
-
 # See https://github.com/ibraheemdev/modern-unix
 # TODO: separate feature for each tool
 declare -a tools=("bat" # https://github.com/sharkdp/bat

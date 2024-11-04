@@ -1,8 +1,5 @@
 CURDIR=$(cd `dirname $0` && pwd)
 
-# Ensure brew is installes
-$CURDIR/../features/brew/setup.sh
-
 # Mac OS Applications:
 declare -a app=(
             "ankiapp-anki"
