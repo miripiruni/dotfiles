@@ -15,6 +15,7 @@ declare -a app=(
             "marta"
             "meetingbar" # https://github.com/leits/MeetingBar
             "notion"
+            "numi"
             "obsidian"
             "raycast"
             "reaper"
