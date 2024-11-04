@@ -5,14 +5,12 @@ $CURDIR/../features/brew/setup.sh
 
 # Mac OS Applications:
 declare -a app=(
-            "amethyst"
             "ankiapp-anki"
             "clipy"
             "firefox"
             "flux" # https://justgetflux.com/
             "keepassxc"
             "meetingbar" # https://github.com/leits/MeetingBar
-            "numi"
             "obsidian"
             "paulxstretch"
             "reaper"
