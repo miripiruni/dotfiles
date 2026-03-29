@@ -8,6 +8,7 @@ declare -a tools=("bat" # https://github.com/sharkdp/bat
             "stats" # https://github.com/exelban/stats
             "task" # https://taskwarrior.org/download/
             "tasksh" # https://gothenburgbitfactory.org/projects/tasksh.html
+            "tmux" # https://github.com/tmux/tmux
             "zsh-completion"
             )
 
