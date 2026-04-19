@@ -1,6 +1,7 @@
 # See https://github.com/ibraheemdev/modern-unix
 # TODO: separate feature for each tool
 declare -a tools=("bat" # https://github.com/sharkdp/bat
+            "bash" # https://cgit.git.savannah.gnu.org/cgit/bash.git/tree/
             "bottom" # https://github.com/ClementTsang/bottom
             "dust" # https://github.com/bootandy/dust
             "mongodb-community" # https://docs.mongodb.com/guides/
