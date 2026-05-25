@@ -7,6 +7,7 @@ source $HOME/.dotfiles/features/brew/config
 source $HOME/.dotfiles/features/claude-code/config
 source $HOME/.dotfiles/features/git/aliases
 source $HOME/.dotfiles/features/npm/config
+source $HOME/.dotfiles/features/nvm/config
 source $HOME/.dotfiles/features/oh-my-zsh/config
 source $HOME/.dotfiles/features/shell/alias
 source $HOME/.dotfiles/features/shell/config

@@ -13,6 +13,7 @@ $HOME/.dotfiles/features/aws/setup.sh
 $HOME/.dotfiles/features/claude-code/setup.sh
 $HOME/.dotfiles/features/eza/setup.sh
 $HOME/.dotfiles/features/font-fira-code/setup.sh
+$HOME/.dotfiles/features/git/nvm.sh
 $HOME/.dotfiles/features/git/setup.sh
 $HOME/.dotfiles/features/jq/setup.sh
 $HOME/.dotfiles/features/oh-my-zsh/setup.sh
