@@ -1,0 +1,8 @@
+export PATH="$HOME/.local/bin:$PATH"
+
+# TODO: after XDG fixed:
+# https://github.com/anthropics/claude-code/issues/1455
+# https://github.com/anthropics/claude-code/issues/2350
+# https://github.com/anthropics/claude-code/issues/11343
+# https://github.com/anthropics/claude-code/issues/15691
+# export CLAUDE_CONFIG_DIR="$XDG_CONFIG_HOME/claude"
