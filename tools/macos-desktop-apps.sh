@@ -6,6 +6,7 @@ declare -a apps=(
             "clipy"
             "firefox"
             "flux" # https://justgetflux.com/
+            "handy"  # https://handy.computer/
             "keepassxc"
             "meetingbar" # https://github.com/leits/MeetingBar
             "obsidian"
