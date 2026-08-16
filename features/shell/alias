@@ -17,3 +17,5 @@ alias df='df -h'
 # Stop after five packets
 alias ping='ping -c 5'
 
+# Check internet connection
+alias check_inet='curl ip-api.com'
