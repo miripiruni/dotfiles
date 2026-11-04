@@ -7,7 +7,7 @@ case $OSTYPE in darwin*)
     brew install --cask alacritty
 
     ALACRITTY_CONFIG_DIR="$XDG_CONFIG_HOME/alacritty"
-    ALACRITTY_CONFIG_FILE="$ALACRITTY_CONFIG_DIR/alacritty.yml"
+    ALACRITTY_CONFIG_FILE="$ALACRITTY_CONFIG_DIR/alacritty.toml"
 
     if [ -d "$ALACRITTY_CONFIG_DIR" ]; then
         if [ -f "$ALACRITTY_CONFIG_FILE" ]; then
@@ -18,5 +18,5 @@ case $OSTYPE in darwin*)
         echo "Directory $ALACRITTY_CONFIG_DIR created."
     fi
 
-    ln -s $CURDIR/alacritty.yml $ALACRITTY_CONFIG_FILE
+    ln -s $CURDIR/alacritty.toml $ALACRITTY_CONFIG_FILE
 esac

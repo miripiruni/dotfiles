@@ -21,8 +21,6 @@ do
     brew install "$tool"
 done
 
-$HOME/.dotfiles/features/alacritty/setup.sh
-
 # start mongo db
 brew services start mongodb/brew/mongodb-community
 
