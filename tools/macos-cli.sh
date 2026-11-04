@@ -4,7 +4,7 @@ declare -a tools=("bat" # https://github.com/sharkdp/bat
             "bash" # https://cgit.git.savannah.gnu.org/cgit/bash.git/tree/
             "bottom" # https://github.com/ClementTsang/bottom
             "dust" # https://github.com/bootandy/dust
-            jj"herdr" # https://github.com/herdrdev/herdr
+            "herdr" # https://github.com/herdrdev/herdr
             "mongodb-community" # https://docs.mongodb.com/guides/
             "procs" # https://github.com/dalance/procs
             "stats" # https://github.com/exelban/stats
