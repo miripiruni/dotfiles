@@ -9,6 +9,7 @@ declare -a apps=(
             "handy"  # https://handy.computer/
             "keepassxc"
             "meetingbar" # https://github.com/leits/MeetingBar
+            "nikitabobko/tap/aerospace" # awesome window manager for macos https://github.com/nikitabobko/AeroSpace
             "obsidian"
             "paulxstretch"
             "reaper"
@@ -29,7 +30,7 @@ done
 
 
 $CURDIR/../features/alacritty/setup.sh
-$CURDIR/../features/amethyst/setup.sh
+$CURDIR/../features/aerospace/setup.sh
 $CURDIR/../features/numi/setup.sh
 $CURDIR/../features/vscode/setup.sh
 
