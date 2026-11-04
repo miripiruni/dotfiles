@@ -1,6 +1,7 @@
 [user]
     name = miripiruni
     email = miripiruni@gmail.com
+	signingkey = /Users/miripiruni/.ssh/id_ed25519.pub
 
 [merge]
     tool = threesome
@@ -75,5 +76,10 @@
     required = true
 [gpg]
 	program = gpg2
+	format = ssh
 [diff]
 	noprefix = true
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
